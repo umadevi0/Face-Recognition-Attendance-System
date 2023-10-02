@@ -1,0 +1,111 @@
+/* AttendanceList.css */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#dateInput {
+  border: 1px solid #ccc;
+  padding: 8px;
+  justify-content: "center";
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  width: 150px;
+}
+#fetch {
+  border: 2px solid black;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: white;
+  color:black;
+  font-size: 14px;
+  cursor: pointer;
+}
+#fetch:hover{
+  background-color: black;
+  color:white;
+}
+.horizontal-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items at the top of the container */
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#totalcontent {
+  position: absolute;
+  top: 60px;
+  left:400px;
+  height: 100%;
+  border: 5px solid white;
+  border-color: white;
+  border-radius: 20px;
+  margin-bottom: 0px; /* Add margin to create distance to the left */
+  width: 700px;
+  background: rgba(119, 119, 119, 0.8);
+  backdrop-filter: saturate(180%) blur(10px);
+  color:white;
+}
+
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.chart {
+  position: relative;
+}
+
+.chart-labels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 270px;
+  margin-top:5px;
+}
+
+.chart-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+.chart-label.present::before,
+.chart-label.absent::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.chart-label.present::before {
+  background-color: #8884d8; /* Present segment color */
+}
+
+.chart-label.absent::before {
+  background-color: #82ca9d; /* Absent segment color */
+}
+.texti1{
+  position: absolute;
+  bottom: 80px;
+}
+.texti2{
+  position: absolute;
+  bottom: 10px;
+}

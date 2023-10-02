@@ -1,0 +1,27 @@
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+#nameInput {
+  border: 1px solid #ccc; /* Specify your border style here */
+  padding: 8px; /* Specify padding here */
+  border-radius: 4px; /* Specify border radius here */
+  width:auto;
+}
+#fetch{
+  border: 2px solid #ccc; /* Specify your border style here */
+  padding: 8px; /* Specify padding here */
+  border-radius: 4px;
+  margin-left: 8px;
+}
+#totalcontent{
+  border: 2px solid black;
+  padding: 15px;
+}

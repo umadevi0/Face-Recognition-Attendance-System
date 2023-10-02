@@ -1,0 +1,16 @@
+form{
+  position: absolute;
+  top: 60px;
+  left:400px;
+  height: 100%;
+  width:100%;
+  border-radius: 20px;
+  margin-bottom: 0px; /* Add margin to create distance to the left */
+  width: 700px;
+  background: rgba(119, 119, 119, 0.8);
+  backdrop-filter: saturate(180%) blur(10px);
+  color:black;
+}
+button{
+  margin-top:10px;
+}

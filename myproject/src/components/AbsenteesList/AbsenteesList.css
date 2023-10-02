@@ -1,0 +1,25 @@
+/* AttendanceList.css */
+table {
+  border: 1px solid black;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+#datevalue {
+  border: 2px solid #ccc; /* Specify your border style here */
+  padding: 8px; /* Specify padding here */
+  border-radius: 4px; /* Specify border radius here */
+  width:auto; /* Add more specific styles as needed */
+  margin-bottom: 8px;
+}
+#totalcontent{
+  border: 2px solid black;
+  padding: 15px;
+}
+.texti{
+  position: absolute;
+  bottom:1px;
+}
