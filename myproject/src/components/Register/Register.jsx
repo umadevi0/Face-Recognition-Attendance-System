@@ -146,6 +146,8 @@ const Register = () => {
           <label htmlFor="department">Department:</label>
           <input type="text" id="department" value={department} onChange={handleDepartmentChange} />
         </div>
+        <br>
+        </br>
         <div>
           <label>Choose Image Capture Option:</label>
           <div>

@@ -23,7 +23,7 @@ const AdminLoginForm = () => {
   };
   return (
     <div>
-      <button onClick={handleBack} className="backbutton">Back</button>
+      <button onClick={handleBack} className="backbutton">Logout</button>
       { loggedIn ? (
         <div>
           {showReport && <Main />}
