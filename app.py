@@ -114,7 +114,7 @@ def store_employee_timings(name, date, hour):
             print("cnt", user_counts[name])
         else:
             if user_counts[name] % 2 == 0:
-                # User recognized odd number of times, create a new row with entry_time again
+                # User recognized even number of times, create a new row with entry_time again
                 print('User recognized again - Entry time')
 
                 # Create a new row for the user today
@@ -124,7 +124,7 @@ def store_employee_timings(name, date, hour):
                 user_counts[name] += 1
                 print("cnt", user_counts[name])
             else:
-                # User recognized even number of times, update the exit_time
+                # User recognized odd number of times, update the exit_time
                 print('User recognized - Exit time')
 
                 # Update departure time for the user for the last entry on the same date
